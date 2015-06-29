@@ -11,7 +11,7 @@ This implementation is a part of the work:
 published at "International Conference on Secure Knowledge Management in Big-data era", Dubai, UAE, 2014. 
 Authors: Pratik Narang, Kunal Mehta and Chittaranjan Hota. DOI: 10.13140/2.1.2533.2804
 
-####################################   Installation    ################################################################
+#################   Installation    #################
 We need networkx, igraph and Gambit installed. 
 
 Install networkx - apt-get install python-networkx or pip install networkx
@@ -41,7 +41,7 @@ Then:
 	sudo python setup.py install
 (From http://www.gambit-project.org/gambit13/build.html#build-python
 
-###################################### Graph_file_format ############################################################
+################## Graph_file_format ######################
 file: graph_weights.txt
 
 	line1 -> num_vertices num_edges num_targets num_IDS
@@ -62,7 +62,7 @@ file: graph_weights.txt
 	...
 	...
 	
-###################################################################################################################
+#####################################################
 
 ##Generate graph
 	To generate a graph run "graph_gen.py"
@@ -72,12 +72,12 @@ file: graph_weights.txt
 
 #If u are giving a custom input graph file then just replace the value in "graph_file" variable with 
 appropriate path(path of the custom-graph_file) in "trivial.py" or "non-trivial.py" files as required 	
-###################################################################################################################
+###################################################
 
 #For trivial solution  run "trivial.py"
 #For non_trivial solution run "non_trivial.py" 
 
-###################################################################################################################
+####################################################
 To change the number of IDSs, change the graph_format_file 
 
-##################################################################################################################
+####################################################
